@@ -57,7 +57,6 @@ li:hover a {
     color: #6E1236;
 }
 
-
 a {
     transition-property: background-color, color;
     transition-duration: 1s;
@@ -72,10 +71,12 @@ a {
 
 /* Header End */
 
+
 aside,
 main {
     float: left;
 }
+
 
 /* leftAside Start */
 
@@ -103,7 +104,7 @@ main {
     border-radius: 20px;
 }
 
-.leftAside i:hover{
+.leftAside i:hover {
     border: 2px solid whitesmoke;
     transition-property: background-color, color;
     transition-duration: 1s;
@@ -114,23 +115,25 @@ main {
 
 /* leftAside End */
 
-main{
+
+/* Main Start */
+
+main {
     width: 60%;
     margin: auto;
     text-align: center;
     padding: 63px;
 }
 
-main header{
+main header {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Alkatra', cursive;
     color: black;
-    padding: 15px  0px;
+    padding: 15px 0px;
 }
 
-
-main section{
+main section {
     width: 16%;
     margin: auto;
     display: inline-block;
@@ -140,33 +143,33 @@ main section{
     margin-top: 20px;
     border: 1px solid white;
     border-radius: 5px;
-    box-shadow:#933258 0 0 5px;
+    box-shadow: #933258 0 0 5px;
     transition-property: background-color, color;
     transition-duration: 1ms;
 }
 
-
-
-main section p{
+main section p {
     font-size: 1.5em;
     font-family: 'Dancing Script', cursive;
     padding: 5px;
 }
 
-main section img{
+main section img {
     margin-top: 10px;
     width: 80%;
     height: 80%;
     background-color: transparent;
 }
 
-
-section:hover{
-    background-color:#7E7E7E;
+section:hover {
+    background-color: #7E7E7E;
     color: whitesmoke;
 }
-/* Main Start */
-
 
 /* Main End */
 
+
+/* Footer Start */
+
+
+/* Footer End */
