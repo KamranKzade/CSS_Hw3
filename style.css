@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+/* link Start */
 
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&display=swap');
+
+/* link End */
+
 
 * {
     padding: 0;
@@ -14,6 +18,8 @@ body {
 i {
     margin: 10px;
 }
+
+/* Header Start */
 
 header {
     width: 100%;
@@ -64,10 +70,14 @@ a {
     color: white;
 }
 
+/* Header End */
+
 aside,
 main {
     float: left;
 }
+
+/* leftAside Start */
 
 .leftAside {
     background-color: #7E7E7E;
@@ -101,4 +111,62 @@ main {
     background-color: white;
     color: #7E7E7E;
 }
+
+/* leftAside End */
+
+main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 63px;
+}
+
+main header{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Alkatra', cursive;
+    color: black;
+    padding: 15px  0px;
+}
+
+
+main section{
+    width: 16%;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow:#933258 0 0 5px;
+    transition-property: background-color, color;
+    transition-duration: 1ms;
+}
+
+
+
+main section p{
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+}
+
+main section img{
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+}
+
+
+section:hover{
+    background-color:#7E7E7E;
+    color: whitesmoke;
+}
+/* Main Start */
+
+
+/* Main End */
 
