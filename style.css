@@ -172,7 +172,7 @@ main section img {
 
 /* Footer Start */
 
-footer{
+footer {
     text-align: center;
     margin: 0;
     padding: 25px;
@@ -182,27 +182,27 @@ footer{
     margin-bottom: 15px;
 }
 
-.Box{
+.Box {
     width: 95%;
     margin: auto;
     margin-bottom: 20px;
     margin-right: 50px;
-    border-bottom:1px solid #F7F8F4;
+    border-bottom: 1px solid #F7F8F4;
     display: inline-block;
     text-align: center;
     padding-left: 30px;
     padding-top: 20px;
 }
 
-.Tags{
+.Tags {
     width: 40%;
     margin: auto;
     display: inline-block;
     text-align: left;
 }
 
-.Tags ul{
-    width: 42%;
+.Tags ul {
+    width: 30%;
     margin: auto;
     display: inline-block;
     list-style: none;
@@ -211,12 +211,12 @@ footer{
     text-align: left;
 }
 
-.Tags ul li{
+.Tags ul li {
     margin: 5px;
     font-size: 0.8em;
 }
 
-.SosialNetwork{
+.SosialNetwork {
     width: 40%;
     margin: auto;
     display: inline-block;
@@ -226,7 +226,7 @@ footer{
 
 }
 
-.SosialNetwork ul{
+.SosialNetwork ul {
     width: 90%;
     margin: auto;
     display: inline-block;
@@ -236,7 +236,7 @@ footer{
     text-align: right;
 }
 
-.SosialNetwork ul li{
+.SosialNetwork ul li {
     font-size: 4.0em;
     display: inline-block;
     text-align: center;
@@ -247,12 +247,11 @@ footer{
     transition-property: background-color, color;
     transition-duration: 1s;
     background-color: transparent;
-    color:#6E1236;
+    color: #6E1236;
 }
 
-.SosialNetwork a{
+.SosialNetwork a {
     color: #F7F8F4;
 }
 
 /* Footer End */
-
